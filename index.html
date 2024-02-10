@@ -550,7 +550,7 @@
 
     <!-- Modal window -->
 
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-close-btn">
           <svg class="modal-close-icon" width="8" height="8">
@@ -606,8 +606,8 @@
             </div>
           </div>
 
-          <div class="modal-field">
-            <label for="user-text" class="modal-label">Comment</label>
+          <div class="modal-field modal-field-comment">
+            <label for="user-comment" class="modal-label">Comment</label>
             <textarea
               name="user-comment"
               id="user-comment"
@@ -628,8 +628,9 @@
               <span class="modal-checkbox">
                 <svg class="check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-checkmark"></use>
-                </svg> </span
-              >I accept the terms and conditions of the
+                </svg>
+              </span>
+              I accept the terms and conditions of the
               <a href="" class="privacy-link">Privacy Policy</a></label
             >
           </div>
